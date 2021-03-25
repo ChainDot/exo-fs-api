@@ -3,6 +3,7 @@ const fs = require('fs')
 // command line check
 if(process.argv.length < 3){
   console.log('usage: node cat-update.js file1.txt file2.txt ...')
+  process.exit(1)
 }
 
 for(let i=2; i< process.argv.length; i++){
