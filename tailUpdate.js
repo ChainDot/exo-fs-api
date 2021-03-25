@@ -1,6 +1,8 @@
 const fs = require('fs');
 
-let array= []
+
+
+
 if(process.argv.length === 5){
 const read = fs.readFileSync(process.argv[4], 'utf-8');
 
