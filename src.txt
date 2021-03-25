@@ -1,0 +1,2 @@
+this is the source text to copy to destination text
+lol
