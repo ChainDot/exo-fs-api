@@ -1,1 +1,2 @@
-this is src1 contentthis is src1 contentthis is src2 contentthis is src1 contentthis is src2 contentthis is src3 content
+this is the content of src1.txt
+this is the content of src2.txt

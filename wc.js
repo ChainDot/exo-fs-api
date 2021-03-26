@@ -48,9 +48,8 @@ if(!isFile.isFile()){
   let read = fs.readFileSync(process.argv[3], 'utf-8')
   let line = read.split('\n').length
   console.log(` ${line} ${process.argv[3]}`)
-} else {
-  console.log(`error: ${process.argv[2]} does not exist`)
-}
+  process.exit(1)
+} 
 
 // word
 if (process.argv.length === 4 && process.argv[2] === '-w'){
@@ -91,9 +90,3 @@ if(!isFile.isFile()){
   let character = (read.split('')).length
   console.log(` ${character} ${process.argv[3]}`)
 }
-
-
-
-/* console.log(` ${line} ${process.argv[2]}`)
-console.log(` ${word} ${process.argv[2]}`)
-console.log(` ${letter} ${process.argv[2]}`) */

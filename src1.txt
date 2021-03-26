@@ -1,1 +1,1 @@
-this is src1 content
+this is the content of src1.txt

@@ -1,5 +1,6 @@
 const fs = require('fs')
 // command line check
+
 // check number of argument
 if(process.argv.length !== 3){
   console.log('usage: node cat.js file.txt')
@@ -18,6 +19,7 @@ if(!isFile.isFile()){
   process.exit(1)
 }
 
+// read file
 const showFile = fs.readFileSync(process.argv[2], 'utf-8')
 
 console.log(showFile)
